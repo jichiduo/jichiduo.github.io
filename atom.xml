@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jichiduo.com/"/>
-  <updated>2017-02-14T07:52:18.723Z</updated>
+  <updated>2017-02-15T04:27:12.159Z</updated>
   <id>http://jichiduo.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jichiduo.com/2017/02/14/HelloWorld/"/>
     <id>http://jichiduo.com/2017/02/14/HelloWorld/</id>
     <published>2017-02-14T01:59:20.000Z</published>
-    <updated>2017-02-14T07:52:18.723Z</updated>
+    <updated>2017-02-15T04:27:12.159Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2017年热热闹闹的来了"><a href="#2017年热热闹闹的来了" class="headerlink" title="2017年热热闹闹的来了"></a>2017年热热闹闹的来了</h1><p>===<br>这是第三次搞个人博客了，时间过的真快，前面几次都是因为自己的疏忽造成的资料丢失，记录的东西也就随之消失，遗憾的是没有做一个程序员应该做的事情：<strong>备份！</strong><br><a id="more"></a><br>为了方便看到这篇文章的你也能自己搭建一个基于HEXO的个人博客，请你看这篇文章<br><a href="http://www.jeyzhang.com/next-theme-personal-settings.html" target="_blank" rel="external">http://www.jeyzhang.com/next-theme-personal-settings.html</a></p>
 ]]></content>
@@ -30,6 +30,8 @@
       &lt;h1 id=&quot;2017年热热闹闹的来了&quot;&gt;&lt;a href=&quot;#2017年热热闹闹的来了&quot; class=&quot;headerlink&quot; title=&quot;2017年热热闹闹的来了&quot;&gt;&lt;/a&gt;2017年热热闹闹的来了&lt;/h1&gt;&lt;p&gt;===&lt;br&gt;这是第三次搞个人博客了，时间过的真快，前面几次都是因为自己的疏忽造成的资料丢失，记录的东西也就随之消失，遗憾的是没有做一个程序员应该做的事情：&lt;strong&gt;备份！&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
     
     </summary>
+    
+      <category term="随笔" scheme="http://jichiduo.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="随笔" scheme="http://jichiduo.com/tags/%E9%9A%8F%E7%AC%94/"/>
