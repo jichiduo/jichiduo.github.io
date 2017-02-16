@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>鸡翅多的自圆其说</title>
+  <title>鸡翅多</title>
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jichiduo.com/"/>
-  <updated>2017-02-15T04:27:12.159Z</updated>
+  <updated>2017-02-16T01:46:20.083Z</updated>
   <id>http://jichiduo.com/</id>
   
   <author>
@@ -20,14 +20,16 @@
     <link href="http://jichiduo.com/2017/02/14/HelloWorld/"/>
     <id>http://jichiduo.com/2017/02/14/HelloWorld/</id>
     <published>2017-02-14T01:59:20.000Z</published>
-    <updated>2017-02-15T04:27:12.159Z</updated>
+    <updated>2017-02-16T01:46:20.083Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="2017年热热闹闹的来了"><a href="#2017年热热闹闹的来了" class="headerlink" title="2017年热热闹闹的来了"></a>2017年热热闹闹的来了</h1><p>===<br>这是第三次搞个人博客了，时间过的真快，前面几次都是因为自己的疏忽造成的资料丢失，记录的东西也就随之消失，遗憾的是没有做一个程序员应该做的事情：<strong>备份！</strong><br><a id="more"></a><br>为了方便看到这篇文章的你也能自己搭建一个基于HEXO的个人博客，请你看这篇文章<br><a href="http://www.jeyzhang.com/next-theme-personal-settings.html" target="_blank" rel="external">http://www.jeyzhang.com/next-theme-personal-settings.html</a></p>
+    <content type="html"><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>2017年热热闹闹的来了，时间过的真快，因为忽略了程序员应该做的事情：<strong><a href="http://baike.baidu.com/link?url=9NHtWaLu7fBZ_EwpMa4MoY9GoN5uR7TzVn4-hdyg79EGEI9UMqFr9AiBObve1LEbMrsmVnnEpQTg0VbfX7h53pxVzqLqAlK_oMN5CBg01z3" target="_blank" rel="external">备份</a>！</strong> 造成了以前博客内容的丢失。新的一年开始了，还是把这个事情捡起来，重新开始，这次数据丢失的可能性比较低，希望可以坚持住记录自己喜欢的内容。<br><a id="more"></a></p>
+<h1 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h1><p>前面几次都是自己买国外的VPS然后安装wordpress之类的博客系统来做，很方便但是就怕忘记续费。所以这次干脆就找了个免费的地方来存放博客的资料。从网络上看到非常多的HEXO+GITHUB搭建博客的文章所以就按图索骥也创建了一个，整体过程还算流畅，除了遇到一个小小的坑就是YMAL的变量赋值的冒号后面要加一个空格，然后才是你的变量的值。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># Site</div><div class="line">title: 鸡翅多</div><div class="line">subtitle: </div><div class="line">description:</div><div class="line">author: 鸡翅多</div><div class="line">language: zh-Hans</div><div class="line">timezone: Asia/Shanghai</div></pre></td></tr></table></figure></p>
+<p>为了方便看到这篇文章的你也能自己搭建一个基于HEXO的个人博客，请你看这篇文章<br><a href="http://www.jeyzhang.com/next-theme-personal-settings.html" target="_blank" rel="external">http://www.jeyzhang.com/next-theme-personal-settings.html</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;2017年热热闹闹的来了&quot;&gt;&lt;a href=&quot;#2017年热热闹闹的来了&quot; class=&quot;headerlink&quot; title=&quot;2017年热热闹闹的来了&quot;&gt;&lt;/a&gt;2017年热热闹闹的来了&lt;/h1&gt;&lt;p&gt;===&lt;br&gt;这是第三次搞个人博客了，时间过的真快，前面几次都是因为自己的疏忽造成的资料丢失，记录的东西也就随之消失，遗憾的是没有做一个程序员应该做的事情：&lt;strong&gt;备份！&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+      &lt;h1 id=&quot;引子&quot;&gt;&lt;a href=&quot;#引子&quot; class=&quot;headerlink&quot; title=&quot;引子&quot;&gt;&lt;/a&gt;引子&lt;/h1&gt;&lt;p&gt;2017年热热闹闹的来了，时间过的真快，因为忽略了程序员应该做的事情：&lt;strong&gt;&lt;a href=&quot;http://baike.baidu.com/link?url=9NHtWaLu7fBZ_EwpMa4MoY9GoN5uR7TzVn4-hdyg79EGEI9UMqFr9AiBObve1LEbMrsmVnnEpQTg0VbfX7h53pxVzqLqAlK_oMN5CBg01z3&quot;&gt;备份&lt;/a&gt;！&lt;/strong&gt; 造成了以前博客内容的丢失。新的一年开始了，还是把这个事情捡起来，重新开始，这次数据丢失的可能性比较低，希望可以坚持住记录自己喜欢的内容。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
