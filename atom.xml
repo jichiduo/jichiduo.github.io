@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jichiduo.com/"/>
-  <updated>2017-02-21T10:41:23.595Z</updated>
+  <updated>2017-02-23T09:21:27.372Z</updated>
   <id>http://jichiduo.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>win7 多用户同时使用远程桌面</title>
+    <link href="http://jichiduo.com/2017/02/23/win7-mulituser-login/"/>
+    <id>http://jichiduo.com/2017/02/23/win7-mulituser-login/</id>
+    <published>2017-02-23T08:59:50.000Z</published>
+    <updated>2017-02-23T09:21:27.372Z</updated>
+    
+    <content type="html"><![CDATA[<p>需要多用户访问或者单用户多连接数访问<br>我们需要修改组策略，开始–运行（WIN+R），输入gpedit.msc回车，配置如下：</p>
+<p>计算机配置–管理模板–Windows组件–远程桌面服务–远程桌面会话主机–<br>修改限制连接的数量<br><img src="/2017/02/23/win7-mulituser-login/2017/02/23/win7-mulituser-login/1.png" alt="1.png" title=""></p>
+<p>修改将远程桌面服务用户限制到单独的远程桌面服务会话，改为禁用，允许单用户多会话：<br><img src="/2017/02/23/win7-mulituser-login/2017/02/23/win7-mulituser-login/2.png" alt="2.png" title=""></p>
+<p>修改WIN7 默认远程桌面连接数配置（WIN7默认连接数为1，服务器有单独修改RD数目的管理工具，所以我们利用第三方工具）<br><img src="/2017/02/23/win7-mulituser-login/2017/02/23/win7-mulituser-login/3.png" alt="3.png" title=""></p>
+<p>如上修改步骤结束后，我们已经能实现多用户多会话访问远程桌面了</p>
+<p>修改默认连接数工具 <a href="/2017/02/23/win7-mulituser-login/UniversalTermsrvPatch.zip" title="请点击此处下载">请点击此处下载</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;需要多用户访问或者单用户多连接数访问&lt;br&gt;我们需要修改组策略，开始–运行（WIN+R），输入gpedit.msc回车，配置如下：&lt;/p&gt;
+&lt;p&gt;计算机配置–管理模板–Windows组件–远程桌面服务–远程桌面会话主机–&lt;br&gt;修改限制连接的数量&lt;br&gt;&lt;img src=&quot;
+    
+    </summary>
+    
+      <category term="旁门左道" scheme="http://jichiduo.com/categories/%E6%97%81%E9%97%A8%E5%B7%A6%E9%81%93/"/>
+    
+    
+      <category term="windows" scheme="http://jichiduo.com/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>群晖DS216 Play更换硬盘</title>
