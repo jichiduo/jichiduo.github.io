@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jichiduo.com/"/>
-  <updated>2017-03-07T09:41:01.978Z</updated>
+  <updated>2017-03-07T09:43:04.255Z</updated>
   <id>http://jichiduo.com/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://jichiduo.com/2017/03/07/win7-desktop-not-auto-refresh/"/>
     <id>http://jichiduo.com/2017/03/07/win7-desktop-not-auto-refresh/</id>
     <published>2017-03-07T09:23:47.000Z</published>
-    <updated>2017-03-07T09:41:01.978Z</updated>
+    <updated>2017-03-07T09:43:04.255Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h1><p>win7 桌面无法自动刷新，症状表现为：用户在桌面上新建或者删除一个文件或者给一个文件重命名后，桌面无法显示更新后的信息，只能手动按F5键或者在桌面单击鼠标右键点击刷新才能看到变化。</p>
+    <content type="html"><![CDATA[<h1 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h1><p>win7 桌面无法自动刷新，症状表现为：用户在桌面上新建或者删除一个文件或者给一个文件重命名后，桌面无法显示更新后的信息，<br>只能手动按F5键或者在桌面单击鼠标右键点击刷新才能看到变化。<br><a id="more"></a></p>
 <h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>网络上提到的修改注册表的方式根本不能解决问题，请按照以下步骤操作即可解决问题：</p>
 <ol>
 <li><p>打开文件夹选项，将所有隐藏文件显示出来，并解除系统对系统文件的保护，如图所示<br><img src="/2017/03/07/win7-desktop-not-auto-refresh/f1.png" alt=""></p>
@@ -36,7 +36,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;症状&quot;&gt;&lt;a href=&quot;#症状&quot; class=&quot;headerlink&quot; title=&quot;症状&quot;&gt;&lt;/a&gt;症状&lt;/h1&gt;&lt;p&gt;win7 桌面无法自动刷新，症状表现为：用户在桌面上新建或者删除一个文件或者给一个文件重命名后，桌面无法显示更新后的信息，只能手动按F5键或
+      &lt;h1 id=&quot;症状&quot;&gt;&lt;a href=&quot;#症状&quot; class=&quot;headerlink&quot; title=&quot;症状&quot;&gt;&lt;/a&gt;症状&lt;/h1&gt;&lt;p&gt;win7 桌面无法自动刷新，症状表现为：用户在桌面上新建或者删除一个文件或者给一个文件重命名后，桌面无法显示更新后的信息，&lt;br&gt;只能手动按F5键或者在桌面单击鼠标右键点击刷新才能看到变化。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -79,9 +79,9 @@
     <link href="http://jichiduo.com/2017/02/21/synology-nas/"/>
     <id>http://jichiduo.com/2017/02/21/synology-nas/</id>
     <published>2017-02-21T09:56:33.000Z</published>
-    <updated>2017-02-21T10:41:23.595Z</updated>
+    <updated>2017-03-07T09:43:04.251Z</updated>
     
-    <content type="html"><![CDATA[<p>  老板自己购买的双盘位的群晖的<a href="https://www.synology.com/en-us/products/DS216play#overview" target="_blank" rel="external">DS216 Play</a>出了些问题，两块盘中的一块可能出现些问题，在日志中频繁出现了同步错误，并且开始出现Bad sector的错误。<br>老板自己询问了售后，对方说直接把坏的盘拿下来换块新的盘上去就可以实现自动同步，但是新硬盘挂到系统上以后，系统报已损毁的错误，仔细查询后发现数据都还在，可以使用共享文件夹的方式将数据拷贝出来。</p>
+    <content type="html"><![CDATA[<p>  老板自己购买的双盘位的群晖的<a href="https://www.synology.com/en-us/products/DS216play#overview" target="_blank" rel="external">DS216 Play</a>出了些问题，两块盘中的一块可能出现些问题，在日志中频繁出现了同步错误，并且开始出现Bad sector的错误。<br>老板自己询问了售后，对方说直接把坏的盘拿下来换块新的盘上去就可以实现自动同步，但是新硬盘挂到系统上以后，系统报已损毁的错误，仔细查询后发现数据都还在，可以使用共享文件夹的方式将数据拷贝出来。<br><a id="more"></a></p>
 <h1 id="要点记录"><a href="#要点记录" class="headerlink" title="要点记录"></a>要点记录</h1><ol>
 <li>遇到数据问题，第一时间告诉用户不要着急，也许一个错误的决定会给后面的数据恢复带来更大的困难</li>
 <li>群晖DSM系统是基于<a href="https://www.ubuntu.com" target="_blank" rel="external">UBUNTU</a>系统的一个修改版本</li>
@@ -94,7 +94,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;  老板自己购买的双盘位的群晖的&lt;a href=&quot;https://www.synology.com/en-us/products/DS216play#overview&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DS216 Play&lt;/a&gt;出了些问题，两
+      &lt;p&gt;  老板自己购买的双盘位的群晖的&lt;a href=&quot;https://www.synology.com/en-us/products/DS216play#overview&quot;&gt;DS216 Play&lt;/a&gt;出了些问题，两块盘中的一块可能出现些问题，在日志中频繁出现了同步错误，并且开始出现Bad sector的错误。&lt;br&gt;老板自己询问了售后，对方说直接把坏的盘拿下来换块新的盘上去就可以实现自动同步，但是新硬盘挂到系统上以后，系统报已损毁的错误，仔细查询后发现数据都还在，可以使用共享文件夹的方式将数据拷贝出来。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
