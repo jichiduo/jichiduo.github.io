@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jichiduo.com/"/>
-  <updated>2017-02-23T09:50:20.451Z</updated>
+  <updated>2017-03-07T09:41:01.978Z</updated>
   <id>http://jichiduo.com/</id>
   
   <author>
@@ -16,14 +16,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>win7 桌面无法自动刷新</title>
+    <link href="http://jichiduo.com/2017/03/07/win7-desktop-not-auto-refresh/"/>
+    <id>http://jichiduo.com/2017/03/07/win7-desktop-not-auto-refresh/</id>
+    <published>2017-03-07T09:23:47.000Z</published>
+    <updated>2017-03-07T09:41:01.978Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h1><p>win7 桌面无法自动刷新，症状表现为：用户在桌面上新建或者删除一个文件或者给一个文件重命名后，桌面无法显示更新后的信息，只能手动按F5键或者在桌面单击鼠标右键点击刷新才能看到变化。</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>网络上提到的修改注册表的方式根本不能解决问题，请按照以下步骤操作即可解决问题：</p>
+<ol>
+<li><p>打开文件夹选项，将所有隐藏文件显示出来，并解除系统对系统文件的保护，如图所示<br><img src="/2017/03/07/win7-desktop-not-auto-refresh/f1.png" alt=""></p>
+</li>
+<li><p>这时候查看你自己的桌面，不要用文件浏览器打开，就是直接看你的桌面，这时你能看到有两个desktop.ini文件，删除时间老一些的那个<br><img src="/2017/03/07/win7-desktop-not-auto-refresh/f2.png" alt=""></p>
+</li>
+<li><p>重新启动你的系统</p>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;症状&quot;&gt;&lt;a href=&quot;#症状&quot; class=&quot;headerlink&quot; title=&quot;症状&quot;&gt;&lt;/a&gt;症状&lt;/h1&gt;&lt;p&gt;win7 桌面无法自动刷新，症状表现为：用户在桌面上新建或者删除一个文件或者给一个文件重命名后，桌面无法显示更新后的信息，只能手动按F5键或
+    
+    </summary>
+    
+      <category term="旁门左道" scheme="http://jichiduo.com/categories/%E6%97%81%E9%97%A8%E5%B7%A6%E9%81%93/"/>
+    
+    
+      <category term="windows" scheme="http://jichiduo.com/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>win7 多用户同时使用远程桌面</title>
     <link href="http://jichiduo.com/2017/02/23/win7-mulituser-login/"/>
     <id>http://jichiduo.com/2017/02/23/win7-mulituser-login/</id>
     <published>2017-02-23T08:59:50.000Z</published>
-    <updated>2017-02-23T09:50:20.451Z</updated>
+    <updated>2017-03-07T09:19:23.570Z</updated>
     
-    <content type="html"><![CDATA[<p>需要多用户访问或者单用户多连接数访问<br>我们需要修改组策略，开始–运行（WIN+R），输入gpedit.msc回车，配置如下：</p>
-<p>计算机配置–管理模板–Windows组件–远程桌面服务–远程桌面会话主机–<br>修改限制连接的数量<br><img src="/2017/02/23/win7-mulituser-login/1.png" alt=""></p>
+    <content type="html"><![CDATA[<p>需要多用户访问或者单用户多连接数访问<br>我们需要修改组策略，开始–运行（WIN+R），输入gpedit.msc回车，配置如下：<br><a id="more"></a><br>计算机配置–管理模板–Windows组件–远程桌面服务–远程桌面会话主机–<br>修改限制连接的数量<br><img src="/2017/02/23/win7-mulituser-login/1.png" alt=""></p>
 <p>修改将远程桌面服务用户限制到单独的远程桌面服务会话，改为禁用，允许单用户多会话：<br><img src="/2017/02/23/win7-mulituser-login/2.png" alt=""></p>
 <p>修改WIN7 默认远程桌面连接数配置（WIN7默认连接数为1，服务器有单独修改RD数目的管理工具，所以我们利用第三方工具）<br><img src="/2017/02/23/win7-mulituser-login/3.png" alt=""></p>
 <p>如上修改步骤结束后，我们已经能实现多用户多会话访问远程桌面了</p>
@@ -32,8 +63,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;需要多用户访问或者单用户多连接数访问&lt;br&gt;我们需要修改组策略，开始–运行（WIN+R），输入gpedit.msc回车，配置如下：&lt;/p&gt;
-&lt;p&gt;计算机配置–管理模板–Windows组件–远程桌面服务–远程桌面会话主机–&lt;br&gt;修改限制连接的数量&lt;br&gt;&lt;img src=&quot;
+      &lt;p&gt;需要多用户访问或者单用户多连接数访问&lt;br&gt;我们需要修改组策略，开始–运行（WIN+R），输入gpedit.msc回车，配置如下：&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
